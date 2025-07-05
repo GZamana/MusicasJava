@@ -22,8 +22,8 @@ public class Podcast extends Audio {
 
 
     @Override
-    public int getClassificacao() { // para Podcast a classificaca e baseado na curtida
-        if (this.getTotalCurtidas() > 500) {
+    public int getClassificacao() { // para Podcast a classificacao e baseado na curtida
+        if (this.getTotalCurtidas() > 998) {
             return 10;
         }else {
             return 8;
