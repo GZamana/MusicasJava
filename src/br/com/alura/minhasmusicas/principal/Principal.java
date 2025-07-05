@@ -9,11 +9,11 @@ public class Principal {
         minhaMusica.setTitulo("Forever");
         minhaMusica.setCantor("Kiss");
 
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 1000; i++) { //999
             minhaMusica.reproduz();
         }
 
-        for (int i = 0; i < 50; i++) {
+        for (int i = 0; i < 50; i++) {//49
             minhaMusica.curte();
         }
 
@@ -21,11 +21,11 @@ public class Principal {
         meuPodcast.setTitulo("BolhaDev");
         meuPodcast.setApresentador("Marcus Mendes");
 
-        for (int i = 0; i < 5000; i++) {
+        for (int i = 0; i < 5000; i++) { //4999
             meuPodcast.reproduz();
         }
 
-        for (int i = 0; i < 1000; i++) {
+        for (int i = 0; i < 1000; i++) { //999
             meuPodcast.curte();
         }
 
